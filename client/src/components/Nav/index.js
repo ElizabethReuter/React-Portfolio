@@ -1,9 +1,7 @@
 import React from "react";
-import { useStoreContext } from "../../utils/GlobalState";
 import { Link } from "react-router-dom";
 
 function Nav() {
-  const [store] = useStoreContext();
 
   return (
     <nav class="navbar navbar-expand-lg navbar-light nav-align-custom">
@@ -14,10 +12,10 @@ function Nav() {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+              <Link to="home">About</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <Link to="portfolio">Portfolio</Link>
             </li>
             <li class="nav-item">
               <Link to="contact">Contact</Link>
