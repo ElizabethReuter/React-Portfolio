@@ -1,0 +1,9 @@
+.navbar {
+    background-color: lavenderblush;
+}
+
+.nav-item {
+    background-color: lavenderblush;
+    display: flex;
+    justify-content: right;
+}

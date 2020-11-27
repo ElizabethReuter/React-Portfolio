@@ -1,6 +1,7 @@
 import React from "react";
 import CardDeck from "react-bootstrap/CardDeck";
 import Card from "react-bootstrap/Card";
+import Button from 'react-bootstrap/Button'
 
 const Portfolio = () => {
   return (
@@ -9,42 +10,40 @@ const Portfolio = () => {
         <Card>
           <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Brew Finder</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Brew Finder
             </Card.Text>
+            <Button variant="primary">Visit</Button>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted"></small>
           </Card.Footer>
         </Card>
         <Card>
           <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Budget Tracker</Card.Title>
             <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
+              Budget
             </Card.Text>
+            <Button variant="primary">Visit</Button>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted"></small>
           </Card.Footer>
         </Card>
         <Card>
           <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Travel App</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              Travel App
             </Card.Text>
+            <Button variant="primary">Visit</Button>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted"></small>
           </Card.Footer>
         </Card>
       </CardDeck>
@@ -52,42 +51,40 @@ const Portfolio = () => {
         <Card>
           <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Workout Tracker</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Workout tracker
             </Card.Text>
+            <Button variant="primary">Visit</Button>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted"></small>
           </Card.Footer>
         </Card>
         <Card>
           <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Weather App</Card.Title>
             <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
+              Weather
             </Card.Text>
+            <Button variant="primary">Visit</Button>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted"></small>
           </Card.Footer>
         </Card>
         <Card>
           <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Note Taker</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              Notes
             </Card.Text>
+            <Button variant="primary">Visit</Button>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted"></small>
           </Card.Footer>
         </Card>
       </CardDeck>
