@@ -1,17 +1,26 @@
 import React from "react";
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Row from 'react-bootstrap/Row';
+import './style.css';
 
 const Contact = () => {
   return (
-    <div className="card">
-      <h1>Let's Connect!</h1>
+    <Jumbotron className="Jumbotron">
+      <Row className="h1">
+      <h1>Get in Touch!</h1>
+      </Row>
+      <Row className="icons">
+      <a href = "mailto: elizabeth.j.reuter@gmail.com" target="_blank"><i class="fa fa-envelope fa-5x" aria-hidden="true"></i></a>
+      <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/elizabeth-reuter-2132411b0/" target="_blank"><i class="fab fa-linkedin fa-5x" href="https://www.linkedin.com/in/elizabeth-reuter-2132411b0/"></i></a>
+      <a class="grey-text text-lighten-3" href="https://github.com/ElizabethReuter" target="_blank"><i class="fab fa-github fa-5x" href="https://github.com/ElizabethReuter"></i></a>
+      </Row>
+      <Row className="h4">
       <h4>Email</h4>
-      <a href = "mailto: elizabeth.j.reuter@gmail.com" target="_blank">Send me an email.</a>
       <h4>Linkedin</h4>
-      <a href="www.linkedin.com/in/elizabethjreuter" target="_blank">Explore my experience.</a>
       <h4>Github</h4>
-      <a href="https://github.com/ElizabethReuter" target="_blank">Explore my projects.</a>
+      </Row>
+    </Jumbotron>
     
-    </div>
   );
 };
 
