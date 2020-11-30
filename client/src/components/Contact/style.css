@@ -1,9 +1,15 @@
 .Jumbotron {
-    align-items: center;
     font-family: 'Montserrat', sans-serif;
-   
+    text-align: center;
+    padding: 20px;
 }
 
 .h1 {
-    align-items: center;
+    text-align: center;
 }
+
+.icons {
+    padding: 10px;
+   
+}
+
