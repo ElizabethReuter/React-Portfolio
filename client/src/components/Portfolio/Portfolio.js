@@ -8,85 +8,69 @@ import BudgetImg from './images/budget.png';
 import NotesImg from './images/Notes.png';
 import WeatherImg from './images/Weather.png';
 import WorkoutImg from './images/Workout.png';
+import "./style.css";
+
 
 
 const Portfolio = () => {
   return (
     <div>
       <CardDeck className="cardText">
-        <Card className="cardText">
+        <Card>
           <Card.Img variant="top" src={TravelImg} />
           <Card.Body>
-            <Card.Title className="cardText">Travel App</Card.Title>
+            <Card.Title>Travel App</Card.Title>
             <a href="https://obscure-springs-07118.herokuapp.com/" target="_blank">
-            <Button variant="primary">Visit</Button>
+            <Button variant="primary" className="button">Visit</Button>
             </a>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted"></small>
-          </Card.Footer>
         </Card>
         <Card>
           <Card.Img variant="top" src={BudgetImg} />
           <Card.Body>
             <Card.Title>Budget Tracker</Card.Title>
             <a href="https://floating-cove-95561.herokuapp.com/" target="_blank">
-            <Button variant="primary">Visit</Button>
+            <Button variant="primary" className="button">Visit</Button>
             </a>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted"></small>
-          </Card.Footer>
         </Card>
         <Card>
           <Card.Img variant="top" src={BrewImg} />
           <Card.Body>
             <Card.Title>Brew Finder</Card.Title>
             <a href="https://elizabethreuter.github.io/Brew-Finder/" target="_blank">
-            <Button variant="primary">Visit</Button>
+            <Button variant="primary" className="button">Visit</Button>
             </a>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted"></small>
-          </Card.Footer>
         </Card>
       </CardDeck>
-      <CardDeck>
+      <CardDeck className="cardText">
         <Card>
           <Card.Img variant="top" src={WorkoutImg} />
           <Card.Body>
             <Card.Title>Workout Tracker</Card.Title>
             <a href="https://evening-citadel-08477.herokuapp.com/" target="_blank">
-            <Button variant="primary">Visit</Button>
+            <Button variant="primary" className="button">Visit</Button>
             </a>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted"></small>
-          </Card.Footer>
         </Card>
         <Card>
           <Card.Img variant="top" src={WeatherImg} />
           <Card.Body>
             <Card.Title>Weather App</Card.Title>
             <a href="https://elizabethreuter.github.io/Homework-6-Weather/" target="_blank">
-            <Button variant="primary">Visit</Button>
+            <Button variant="primary" className="button">Visit</Button>
             </a>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted"></small>
-          </Card.Footer>
         </Card>
         <Card>
           <Card.Img variant="top" src={NotesImg} />
           <Card.Body>
             <Card.Title>Note Taker</Card.Title>
             <a href="https://dry-gorge-64258.herokuapp.com/" target="_blank">
-            <Button variant="primary">Visit</Button>
+            <Button variant="primary" className="button">Visit</Button>
             </a>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted"></small>
-          </Card.Footer>
         </Card>
       </CardDeck>
     </div>

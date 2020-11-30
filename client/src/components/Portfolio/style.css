@@ -1,4 +1,9 @@
 .cardText {
-    
     font-family: 'Montserrat', sans-serif;
+    margin: 60px;
+}
+
+.button {
+    background-color: lightgray;
+    border: lightgray;
 }
