@@ -1,0 +1,9 @@
+.jumbotron {
+    background: lavenderblush;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.image {
+    max-width: 80%;
+    max-height: 100%;
+}

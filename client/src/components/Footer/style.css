@@ -1,0 +1,13 @@
+.footer-bottom {
+    text-align: center;
+    background-color: rgb(236, 205, 216);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.footerText {
+    font-family: 'Grand Hotel', cursive;
+    text-align: center;
+    padding: 30px;
+}

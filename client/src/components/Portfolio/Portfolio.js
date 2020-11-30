@@ -13,11 +13,11 @@ import WorkoutImg from './images/Workout.png';
 const Portfolio = () => {
   return (
     <div>
-      <CardDeck>
-        <Card>
+      <CardDeck className="cardText">
+        <Card className="cardText">
           <Card.Img variant="top" src={TravelImg} />
           <Card.Body>
-            <Card.Title>Travel App</Card.Title>
+            <Card.Title className="cardText">Travel App</Card.Title>
             <a href="https://obscure-springs-07118.herokuapp.com/" target="_blank">
             <Button variant="primary">Visit</Button>
             </a>

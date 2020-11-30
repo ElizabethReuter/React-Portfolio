@@ -1,23 +1,21 @@
 .navbar {
-    min-height: 10vh;
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 10rem;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background-image: url('./watercolor.jpg');
+    padding-bottom: 120px;
 }
 
-.bg-img {
-    background-image: url("watercolor.jpg");
+.navLinks {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .navName {
     font-family: 'Grand Hotel', cursive;
-    font-size: xx-large;
+    font-size: 80px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .nav-item {
