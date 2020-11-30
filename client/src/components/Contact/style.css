@@ -4,12 +4,11 @@
     padding: 20px;
 }
 
-.h1 {
-    text-align: center;
+.icons {
+    padding: 20px;
 }
 
-.icons {
-    padding: 10px;
-   
+.fa-8x {
+    color: rgb(245, 159, 189);
 }
 
