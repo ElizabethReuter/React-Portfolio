@@ -1,14 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
+import Image from 'react-bootstrap/Image'
+import NavImg from './watercolor.jpg'
 
 
 
 function Nav() {
-
   return (
-<nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
+<div className="container bg-img">
+  <Image src={NavImg} fluid />
+  <nav className="navbar navbar-expand-lg navbar-light bg-light topnav">
+      <Link className="navbar-brand navName" to="/">
         Elizabeth Reuter
       </Link>
       <div>
@@ -43,8 +46,9 @@ function Nav() {
           </li>
         </ul>
       </div>
-    </nav>
-  );
+  </nav>
+</div>
+    );
 }
 
 export default Nav;

@@ -1,7 +1,9 @@
 import React from "react";
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Row from 'react-bootstrap/Row';
-import './style.css';
+import "./style.css";
+
+
 
 const Contact = () => {
   return (

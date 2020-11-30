@@ -1,9 +1,26 @@
 .navbar {
-    background-color: lavenderblush;
+    min-height: 10vh;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-image: url('./watercolor.jpg');
+}
+
+.bg-img {
+    background-image: url("watercolor.jpg");
+}
+
+.navName {
+    font-family: 'Grand Hotel', cursive;
+    font-size: xx-large;
 }
 
 .nav-item {
-    background-color: lavenderblush;
     display: flex;
     justify-content: right;
 }

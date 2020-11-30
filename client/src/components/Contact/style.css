@@ -1,7 +1,8 @@
 .Jumbotron {
-    text-align: center;
+    align-items: center;
+   
 }
 
 .h1 {
-    text-align: center;
+    align-items: center;
 }
