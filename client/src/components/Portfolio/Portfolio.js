@@ -19,8 +19,8 @@ const Portfolio = () => {
         <Card>
           <Card.Img variant="top" src={TravelImg} />
           <Card.Body>
-            <Card.Title>Travel App</Card.Title>
-            <a href="https://obscure-springs-07118.herokuapp.com/" target="_blank">
+            <Card.Title>Travel Pocket Wizard</Card.Title>
+            <a href="https://travel-pocket-wizard.herokuapp.com/" target="_blank">
             <Button variant="primary" className="button">Visit</Button>
             </a>
           </Card.Body>
