@@ -23,6 +23,9 @@ const Portfolio = () => {
             <a href="https://travel-pocket-wizard.herokuapp.com/" target="_blank">
             <Button variant="primary" className="button">Visit</Button>
             </a>
+            <Card.Text>
+            Gives users one application to all information needed for travel within the US. Users can find flight info, best places to stay, top news headlines, highest rated attractions and current information or restrictions due to COVID-19.
+            </Card.Text>
           </Card.Body>
         </Card>
         <Card>
@@ -32,6 +35,8 @@ const Portfolio = () => {
             <a href="https://floating-cove-95561.herokuapp.com/" target="_blank">
             <Button variant="primary" className="button">Visit</Button>
             </a>
+            <Card.Text>
+            The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.            </Card.Text>
           </Card.Body>
         </Card>
         <Card>
@@ -41,6 +46,8 @@ const Portfolio = () => {
             <a href="https://elizabethreuter.github.io/Brew-Finder/" target="_blank">
             <Button variant="primary" className="button">Visit</Button>
             </a>
+            <Card.Text>
+            Connecting users to available breweries throughout cities across the United States and information regarding each brewery            </Card.Text>
           </Card.Body>
         </Card>
       </CardDeck>
@@ -52,6 +59,9 @@ const Portfolio = () => {
             <a href="https://evening-citadel-08477.herokuapp.com/" target="_blank">
             <Button variant="primary" className="button">Visit</Button>
             </a>
+            <Card.Text>
+            A consumer will reach their fitness goals more quickly when they track their workout progress. A user can add exercises to a previous workout plan and add new exercises to a new workout plan.
+            </Card.Text>
           </Card.Body>
         </Card>
         <Card>
@@ -61,6 +71,9 @@ const Portfolio = () => {
             <a href="https://elizabethreuter.github.io/Homework-6-Weather/" target="_blank">
             <Button variant="primary" className="button">Visit</Button>
             </a>
+            <Card.Text>
+              Gives uses the option to see the weather outlook for multiple cities, along with the ability to save each city search for the future.
+            </Card.Text>
           </Card.Body>
         </Card>
         <Card>
@@ -70,6 +83,8 @@ const Portfolio = () => {
             <a href="https://dry-gorge-64258.herokuapp.com/" target="_blank">
             <Button variant="primary" className="button">Visit</Button>
             </a>
+            <Card.Text>
+            For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.            </Card.Text>
           </Card.Body>
         </Card>
       </CardDeck>
